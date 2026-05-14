@@ -288,3 +288,18 @@ code {
     justify-content: center;
   }
 }
+  .profile-panel {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+    background: #e9e3d8;
+  }
